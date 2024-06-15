@@ -1,0 +1,502 @@
+# Report for collapsed table: /var/www/html/ImageGP/Public/source/FAPROTAX/1616485162.txt.faprotax.xls
+# Collapsed table generated on: 2021.03.23 15:39:26
+# Original table: /var/www/html/ImageGP/Public/source/FAPROTAX/1616485162.txt.tax.biom
+# Details:
+#  Original BIOM table contained 142 rows & 9 columns
+"#  After filtering rows & columns based on names and metadata, obtained a table comprising 142 rows & 9 columns"
+"#  After (potentially) filtering out records based on name, obtained a table comprising 142 records & 9 data entries per record"
+# Used command:
+#   /var/www/html/ImageGP/Public/ehbio/bin/FAPROTAX_1.1/collapse_table.py -i /var/www/html/ImageGP/Public/source/FAPROTAX/1616485162.txt.tax.biom -g /var/www/html/ImageGP/Public/ehbio/bin/FAPROTAX_1.1/FAPROTAX.txt --collapse_by_metadata taxonomy -v --force -o /var/www/html/ImageGP/Public/source/FAPROTAX/1616485162.txt.faprotax.xls -r /var/www/html/ImageGP/Public/source/FAPROTAX/1616485162.txt.faprotax.report.xls
+#
+# Summary of group assignments:
+#   methanotrophy: 2 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 0 records
+#   methanogenesis_by_CO2_reduction_with_H2: 0 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 0 records
+#   hydrogenotrophic_methanogenesis: 0 records
+#   methanogenesis: 0 records
+#   methanol_oxidation: 3 records
+#   methylotrophy: 5 records
+#   aerobic_ammonia_oxidation: 0 records
+#   aerobic_nitrite_oxidation: 0 records
+#   nitrification: 0 records
+#   sulfate_respiration: 1 records
+#   sulfur_respiration: 0 records
+#   dark_sulfite_oxidation: 0 records
+#   sulfite_respiration: 0 records
+#   thiosulfate_respiration: 0 records
+#   respiration_of_sulfur_compounds: 1 records
+#   arsenate_detoxification: 0 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 0 records
+#   arsenite_oxidation_detoxification: 0 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 0 records
+#   anammox: 0 records
+#   nitrate_denitrification: 1 records
+#   nitrite_denitrification: 1 records
+#   nitrous_oxide_denitrification: 1 records
+#   denitrification: 1 records
+#   chitinolysis: 0 records
+#   knallgas_bacteria: 0 records
+#   dark_hydrogen_oxidation: 0 records
+#   nitrogen_fixation: 0 records
+#   nitrate_ammonification: 0 records
+#   nitrite_ammonification: 0 records
+#   nitrite_respiration: 1 records
+#   cellulolysis: 0 records
+#   xylanolysis: 0 records
+#   dark_sulfide_oxidation: 0 records
+#   dark_sulfur_oxidation: 0 records
+#   dark_thiosulfate_oxidation: 1 records
+#   dark_oxidation_of_sulfur_compounds: 1 records
+#   manganese_oxidation: 0 records
+#   manganese_respiration: 0 records
+#   ligninolysis: 0 records
+#   fermentation: 4 records
+#   aerobic_chemoheterotrophy: 18 records
+#   invertebrate_parasites: 0 records
+#   human_pathogens_septicemia: 1 records
+#   human_pathogens_pneumonia: 1 records
+#   human_pathogens_nosocomia: 0 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 0 records
+#   human_pathogens_diarrhea: 0 records
+#   human_pathogens_all: 6 records
+#   fish_parasites: 0 records
+#   human_gut: 0 records
+#   mammal_gut: 0 records
+#   animal_parasites_or_symbionts: 6 records
+#   plant_pathogen: 1 records
+#   oil_bioremediation: 0 records
+#   aromatic_hydrocarbon_degradation: 1 records
+#   aromatic_compound_degradation: 6 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 0 records
+#   hydrocarbon_degradation: 3 records
+#   dark_iron_oxidation: 0 records
+#   iron_respiration: 0 records
+#   nitrate_respiration: 3 records
+#   nitrate_reduction: 5 records
+#   nitrogen_respiration: 3 records
+#   fumarate_respiration: 0 records
+#   intracellular_parasites: 3 records
+#   chlorate_reducers: 2 records
+#   predatory_or_exoparasitic: 0 records
+#   chloroplasts: 5 records
+#   cyanobacteria: 2 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 0 records
+#   anoxygenic_photoautotrophy: 0 records
+#   oxygenic_photoautotrophy: 2 records
+#   photoautotrophy: 2 records
+#   aerobic_anoxygenic_phototrophy: 0 records
+#   photoheterotrophy: 1 records
+#   phototrophy: 3 records
+#   plastic_degradation: 1 records
+#   ureolysis: 0 records
+#   reductive_acetogenesis: 0 records
+#   chemoheterotrophy: 27 records
+#
+# Loaded 90 groups comprising 7820 members (4724 unique members)
+# Established 125 assignments of records to groups
+# 39 out of 142 records (27.4648 %) were assigned to at least one group
+# 103 out of 142 records (72.5352 %) could not be assigned to any group (leftovers)
+# 35 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (2 records):
+    OTU_104 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_117 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylococcaceae)
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (0 records):
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (0 records):
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (0 records):
+
+
+# hydrogenotrophic_methanogenesis (0 records):
+
+
+# methanogenesis (0 records):
+
+
+# methanol_oxidation (3 records):
+    OTU_55 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_16 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__uncultured_bacterium)
+
+
+# methylotrophy (5 records):
+    OTU_104 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_55 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_16 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__uncultured_bacterium)
+    OTU_117 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylococcaceae)
+
+
+# aerobic_ammonia_oxidation (0 records):
+
+
+# aerobic_nitrite_oxidation (0 records):
+
+
+# nitrification (0 records):
+
+
+# sulfate_respiration (1 records):
+    OTU_116 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfobacterales*f__Desulfobacteraceae)
+
+
+# sulfur_respiration (0 records):
+
+
+# dark_sulfite_oxidation (0 records):
+
+
+# sulfite_respiration (0 records):
+
+
+# thiosulfate_respiration (0 records):
+
+
+# respiration_of_sulfur_compounds (1 records):
+    OTU_116 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfobacterales*f__Desulfobacteraceae)
+
+
+# arsenate_detoxification (0 records):
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (0 records):
+
+
+# arsenite_oxidation_detoxification (0 records):
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (0 records):
+
+
+# anammox (0 records):
+
+
+# nitrate_denitrification (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# nitrite_denitrification (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# nitrous_oxide_denitrification (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# denitrification (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# chitinolysis (0 records):
+
+
+# knallgas_bacteria (0 records):
+
+
+# dark_hydrogen_oxidation (0 records):
+
+
+# nitrogen_fixation (0 records):
+
+
+# nitrate_ammonification (0 records):
+
+
+# nitrite_ammonification (0 records):
+
+
+# nitrite_respiration (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# cellulolysis (0 records):
+
+
+# xylanolysis (0 records):
+
+
+# dark_sulfide_oxidation (0 records):
+
+
+# dark_sulfur_oxidation (0 records):
+
+
+# dark_thiosulfate_oxidation (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# dark_oxidation_of_sulfur_compounds (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# manganese_oxidation (0 records):
+
+
+# manganese_respiration (0 records):
+
+
+# ligninolysis (0 records):
+
+
+# fermentation (4 records):
+    OTU_93 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus*s__Lactococcus_garvieae_subsp._garvieae)
+    OTU_102 (k__Bacteria*p__Firmicutes*c__Negativicutes*o__Selenomonadales*f__Acidaminococcaceae*g__Phascolarctobacterium)
+    OTU_6 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_142 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+
+
+# aerobic_chemoheterotrophy (18 records):
+    OTU_120 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Frankiales*f__Cryptosporangiaceae*g__Cryptosporangium*s__Ambiguous_taxa)
+    OTU_86 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micrococcales*f__Microbacteriaceae*g__Microbacterium)
+    OTU_89 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micromonosporales*f__Micromonosporaceae*g__Actinoplanes*s__Ambiguous_taxa)
+    OTU_131 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Hyphomicrobiaceae*g__Hyphomicrobium*s__Ambiguous_taxa)
+    OTU_97 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium)
+    OTU_32 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium*s__Ambiguous_taxa)
+    OTU_90 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_103 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured)
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+    OTU_31 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_114 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_indicus)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__metagenome)
+    OTU_91 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+    OTU_106 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_peli)
+
+
+# invertebrate_parasites (0 records):
+
+
+# human_pathogens_septicemia (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# human_pathogens_pneumonia (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# human_pathogens_nosocomia (0 records):
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (0 records):
+
+
+# human_pathogens_diarrhea (0 records):
+
+
+# human_pathogens_all (6 records):
+    OTU_31 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_114 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_indicus)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__metagenome)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (0 records):
+
+
+# mammal_gut (0 records):
+
+
+# animal_parasites_or_symbionts (6 records):
+    OTU_31 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_114 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_indicus)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__metagenome)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# plant_pathogen (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# oil_bioremediation (0 records):
+
+
+# aromatic_hydrocarbon_degradation (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# aromatic_compound_degradation (6 records):
+    OTU_31 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_114 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_indicus)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__metagenome)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (0 records):
+
+
+# hydrocarbon_degradation (3 records):
+    OTU_104 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_117 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylococcaceae)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# dark_iron_oxidation (0 records):
+
+
+# iron_respiration (0 records):
+
+
+# nitrate_respiration (3 records):
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# nitrate_reduction (5 records):
+    OTU_6 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_142 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# nitrogen_respiration (3 records):
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# fumarate_respiration (0 records):
+
+
+# intracellular_parasites (3 records):
+    OTU_129 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_101 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Rickettsiaceae*g__Candidatus_Megaira)
+    OTU_7 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__uncultured)
+
+
+# chlorate_reducers (2 records):
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+
+
+# predatory_or_exoparasitic (0 records):
+
+
+# chloroplasts (5 records):
+    OTU_63 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Chloroplast)
+    OTU_124 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Chloroplast)
+    OTU_87 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Chloroplast)
+    OTU_127 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Chloroplast*f__Epipyxis_sp._PR26KG*g__Epipyxis_sp._PR26KG*s__Epipyxis_sp._PR26KG)
+    OTU_81 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Chloroplast*f__Phaseolus_acutifolius__[tepary_bean]*g__Phaseolus_acutifolius__[tepary_bean]*s__Phaseolus_acutifolius__[tepary_bean])
+
+
+# cyanobacteria (2 records):
+    OTU_49 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_125 (k__Bacteria*p__Cyanobacteria*c__Sericytochromatia)
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy (0 records):
+
+
+# oxygenic_photoautotrophy (2 records):
+    OTU_49 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_125 (k__Bacteria*p__Cyanobacteria*c__Sericytochromatia)
+
+
+# photoautotrophy (2 records):
+    OTU_49 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_125 (k__Bacteria*p__Cyanobacteria*c__Sericytochromatia)
+
+
+# aerobic_anoxygenic_phototrophy (0 records):
+
+
+# photoheterotrophy (1 records):
+    OTU_105 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+
+
+# phototrophy (3 records):
+    OTU_49 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_125 (k__Bacteria*p__Cyanobacteria*c__Sericytochromatia)
+    OTU_105 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+
+
+# plastic_degradation (1 records):
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+
+
+# ureolysis (0 records):
+
+
+# reductive_acetogenesis (0 records):
+
+
+# chemoheterotrophy (27 records):
+    OTU_120 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Frankiales*f__Cryptosporangiaceae*g__Cryptosporangium*s__Ambiguous_taxa)
+    OTU_86 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micrococcales*f__Microbacteriaceae*g__Microbacterium)
+    OTU_89 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micromonosporales*f__Micromonosporaceae*g__Actinoplanes*s__Ambiguous_taxa)
+    OTU_93 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus*s__Lactococcus_garvieae_subsp._garvieae)
+    OTU_102 (k__Bacteria*p__Firmicutes*c__Negativicutes*o__Selenomonadales*f__Acidaminococcaceae*g__Phascolarctobacterium)
+    OTU_104 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_131 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Hyphomicrobiaceae*g__Hyphomicrobium*s__Ambiguous_taxa)
+    OTU_97 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium)
+    OTU_32 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium*s__Ambiguous_taxa)
+    OTU_90 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_103 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured)
+    OTU_6 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_142 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_55 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_16 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__uncultured_bacterium)
+    OTU_107 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__Ambiguous_taxa)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas*s__uncultured_bacterium)
+    OTU_117 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylococcaceae)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_31 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_114 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_indicus)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__metagenome)
+    OTU_91 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_8 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_aeruginosa)
+    OTU_106 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_peli)

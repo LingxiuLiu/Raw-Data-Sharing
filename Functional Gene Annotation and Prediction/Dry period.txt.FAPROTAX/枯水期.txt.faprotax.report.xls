@@ -1,0 +1,947 @@
+# Report for collapsed table: /var/www/html/ImageGP/Public/source/FAPROTAX/1616484977.txt.faprotax.xls
+# Collapsed table generated on: 2021.03.23 15:36:26
+# Original table: /var/www/html/ImageGP/Public/source/FAPROTAX/1616484977.txt.tax.biom
+# Details:
+#  Original BIOM table contained 687 rows & 13 columns
+#  After filtering rows & columns based on names and metadata, obtained a table comprising 687 rows & 13 columns
+#  After (potentially) filtering out records based on name, obtained a table comprising 687 records & 13 data entries per record
+# Used command:
+#   /var/www/html/ImageGP/Public/ehbio/bin/FAPROTAX_1.1/collapse_table.py -i /var/www/html/ImageGP/Public/source/FAPROTAX/1616484977.txt.tax.biom -g /var/www/html/ImageGP/Public/ehbio/bin/FAPROTAX_1.1/FAPROTAX.txt --collapse_by_metadata taxonomy -v --force -o /var/www/html/ImageGP/Public/source/FAPROTAX/1616484977.txt.faprotax.xls -r /var/www/html/ImageGP/Public/source/FAPROTAX/1616484977.txt.faprotax.report.xls
+#
+# Summary of group assignments:
+#   methanotrophy: 5 records
+#   acetoclastic_methanogenesis: 0 records
+#   methanogenesis_by_disproportionation_of_methyl_groups: 0 records
+#   methanogenesis_using_formate: 0 records
+#   methanogenesis_by_CO2_reduction_with_H2: 0 records
+#   methanogenesis_by_reduction_of_methyl_compounds_with_H2: 0 records
+#   hydrogenotrophic_methanogenesis: 0 records
+#   methanogenesis: 0 records
+#   methanol_oxidation: 15 records
+#   methylotrophy: 20 records
+#   aerobic_ammonia_oxidation: 0 records
+#   aerobic_nitrite_oxidation: 2 records
+#   nitrification: 2 records
+#   sulfate_respiration: 2 records
+#   sulfur_respiration: 0 records
+#   dark_sulfite_oxidation: 0 records
+#   sulfite_respiration: 0 records
+#   thiosulfate_respiration: 0 records
+#   respiration_of_sulfur_compounds: 2 records
+#   arsenate_detoxification: 0 records
+#   arsenate_respiration: 0 records
+#   dissimilatory_arsenate_reduction: 0 records
+#   arsenite_oxidation_detoxification: 0 records
+#   arsenite_oxidation_energy_yielding: 0 records
+#   dissimilatory_arsenite_oxidation: 0 records
+#   anammox: 0 records
+#   nitrate_denitrification: 1 records
+#   nitrite_denitrification: 1 records
+#   nitrous_oxide_denitrification: 1 records
+#   denitrification: 1 records
+#   chitinolysis: 0 records
+#   knallgas_bacteria: 0 records
+#   dark_hydrogen_oxidation: 0 records
+#   nitrogen_fixation: 0 records
+#   nitrate_ammonification: 0 records
+#   nitrite_ammonification: 0 records
+#   nitrite_respiration: 1 records
+#   cellulolysis: 1 records
+#   xylanolysis: 7 records
+#   dark_sulfide_oxidation: 0 records
+#   dark_sulfur_oxidation: 0 records
+#   dark_thiosulfate_oxidation: 0 records
+#   dark_oxidation_of_sulfur_compounds: 0 records
+#   manganese_oxidation: 0 records
+#   manganese_respiration: 0 records
+#   ligninolysis: 0 records
+#   fermentation: 31 records
+#   aerobic_chemoheterotrophy: 126 records
+#   invertebrate_parasites: 0 records
+#   human_pathogens_septicemia: 0 records
+#   human_pathogens_pneumonia: 0 records
+#   human_pathogens_nosocomia: 0 records
+#   human_pathogens_meningitis: 0 records
+#   human_pathogens_gastroenteritis: 0 records
+#   human_pathogens_diarrhea: 0 records
+#   human_pathogens_all: 8 records
+#   fish_parasites: 0 records
+#   human_gut: 2 records
+#   mammal_gut: 2 records
+#   animal_parasites_or_symbionts: 11 records
+#   plant_pathogen: 0 records
+#   oil_bioremediation: 0 records
+#   aromatic_hydrocarbon_degradation: 1 records
+#   aromatic_compound_degradation: 8 records
+#   aliphatic_non_methane_hydrocarbon_degradation: 0 records
+#   hydrocarbon_degradation: 7 records
+#   dark_iron_oxidation: 1 records
+#   iron_respiration: 2 records
+#   nitrate_respiration: 4 records
+#   nitrate_reduction: 12 records
+#   nitrogen_respiration: 4 records
+#   fumarate_respiration: 0 records
+#   intracellular_parasites: 26 records
+#   chlorate_reducers: 1 records
+#   predatory_or_exoparasitic: 0 records
+#   chloroplasts: 0 records
+#   cyanobacteria: 18 records
+#   anoxygenic_photoautotrophy_H2_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_S_oxidizing: 0 records
+#   anoxygenic_photoautotrophy_Fe_oxidizing: 0 records
+#   anoxygenic_photoautotrophy: 0 records
+#   oxygenic_photoautotrophy: 18 records
+#   photoautotrophy: 18 records
+#   aerobic_anoxygenic_phototrophy: 0 records
+#   photoheterotrophy: 4 records
+#   phototrophy: 22 records
+#   plastic_degradation: 1 records
+#   ureolysis: 2 records
+#   reductive_acetogenesis: 0 records
+#   chemoheterotrophy: 178 records
+#
+# Loaded 90 groups comprising 7820 members (4724 unique members)
+# Established 568 assignments of records to groups
+# 232 out of 687 records (33.77 %) were assigned to at least one group
+# 455 out of 687 records (66.23 %) could not be assigned to any group (leftovers)
+# 38 groups were represented (i.e. associated with at least one record)
+# Detailed group assignments are listed below
+
+# methanotrophy (5 records):
+    OTU_572 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_362 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae)
+    OTU_461 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Crenothrix*s__uncultured_Methylococcales_bacterium)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Methylobacter)
+    OTU_27 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__uncultured*s__Ambiguous_taxa)
+
+
+# acetoclastic_methanogenesis (0 records):
+
+
+# methanogenesis_by_disproportionation_of_methyl_groups (0 records):
+
+
+# methanogenesis_using_formate (0 records):
+
+
+# methanogenesis_by_CO2_reduction_with_H2 (0 records):
+
+
+# methanogenesis_by_reduction_of_methyl_compounds_with_H2 (0 records):
+
+
+# hydrogenotrophic_methanogenesis (0 records):
+
+
+# methanogenesis (0 records):
+
+
+# methanol_oxidation (15 records):
+    OTU_180 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_225 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_595 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_697 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_694 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus)
+    OTU_10 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_313 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylophilus*s__uncultured_soil_bacterium)
+    OTU_431 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_698 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_294 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_406 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_311 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__Ambiguous_taxa)
+    OTU_182 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__uncultured_Methylophilaceae_bacterium)
+    OTU_228 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__Ambiguous_taxa)
+
+
+# methylotrophy (20 records):
+    OTU_572 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_180 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_225 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_697 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_595 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_694 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus)
+    OTU_10 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_313 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylophilus*s__uncultured_soil_bacterium)
+    OTU_431 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_698 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_294 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_406 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_311 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__Ambiguous_taxa)
+    OTU_182 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__uncultured_Methylophilaceae_bacterium)
+    OTU_228 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_362 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae)
+    OTU_461 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Crenothrix*s__uncultured_Methylococcales_bacterium)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Methylobacter)
+    OTU_27 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__uncultured*s__Ambiguous_taxa)
+
+
+# aerobic_ammonia_oxidation (0 records):
+
+
+# aerobic_nitrite_oxidation (2 records):
+    OTU_222 (k__Bacteria*p__Nitrospirae*c__Nitrospira*o__Nitrospirales*f__Nitrospiraceae*g__Nitrospira)
+    OTU_506 (k__Bacteria*p__Nitrospirae*c__Nitrospira*o__Nitrospirales*f__Nitrospiraceae*g__Nitrospira*s__Nitrospira_defluvii)
+
+
+# nitrification (2 records):
+    OTU_222 (k__Bacteria*p__Nitrospirae*c__Nitrospira*o__Nitrospirales*f__Nitrospiraceae*g__Nitrospira)
+    OTU_506 (k__Bacteria*p__Nitrospirae*c__Nitrospira*o__Nitrospirales*f__Nitrospiraceae*g__Nitrospira*s__Nitrospira_defluvii)
+
+
+# sulfate_respiration (2 records):
+    OTU_625 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfobacterales*f__Desulfobulbaceae)
+    OTU_158 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfovibrionales*f__Desulfomicrobiaceae*g__Desulfomicrobium)
+
+
+# sulfur_respiration (0 records):
+
+
+# dark_sulfite_oxidation (0 records):
+
+
+# sulfite_respiration (0 records):
+
+
+# thiosulfate_respiration (0 records):
+
+
+# respiration_of_sulfur_compounds (2 records):
+    OTU_625 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfobacterales*f__Desulfobulbaceae)
+    OTU_158 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfovibrionales*f__Desulfomicrobiaceae*g__Desulfomicrobium)
+
+
+# arsenate_detoxification (0 records):
+
+
+# arsenate_respiration (0 records):
+
+
+# dissimilatory_arsenate_reduction (0 records):
+
+
+# arsenite_oxidation_detoxification (0 records):
+
+
+# arsenite_oxidation_energy_yielding (0 records):
+
+
+# dissimilatory_arsenite_oxidation (0 records):
+
+
+# anammox (0 records):
+
+
+# nitrate_denitrification (1 records):
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+
+
+# nitrite_denitrification (1 records):
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+
+
+# nitrous_oxide_denitrification (1 records):
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+
+
+# denitrification (1 records):
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+
+
+# chitinolysis (0 records):
+
+
+# knallgas_bacteria (0 records):
+
+
+# dark_hydrogen_oxidation (0 records):
+
+
+# nitrogen_fixation (0 records):
+
+
+# nitrate_ammonification (0 records):
+
+
+# nitrite_ammonification (0 records):
+
+
+# nitrite_respiration (1 records):
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+
+
+# cellulolysis (1 records):
+    OTU_412 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Cytophagales*f__Cytophagaceae*g__Cytophaga*s__uncultured_bacterium)
+
+
+# xylanolysis (7 records):
+    OTU_161 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group)
+    OTU_142 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_129 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_79 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_136 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_21 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_157 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+
+
+# dark_sulfide_oxidation (0 records):
+
+
+# dark_sulfur_oxidation (0 records):
+
+
+# dark_thiosulfate_oxidation (0 records):
+
+
+# dark_oxidation_of_sulfur_compounds (0 records):
+
+
+# manganese_oxidation (0 records):
+
+
+# manganese_respiration (0 records):
+
+
+# ligninolysis (0 records):
+
+
+# fermentation (31 records):
+    OTU_682 (k__Bacteria*p__Acidobacteria*c__Holophagae*o__Holophagales*f__Holophagaceae*g__Geothrix*s__Ambiguous_taxa)
+    OTU_385 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides)
+    OTU_367 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides)
+    OTU_622 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides*s__Bacteroides_uniformis)
+    OTU_161 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group)
+    OTU_21 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_142 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_79 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_129 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_157 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_136 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_380 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Rikenellaceae*g__Alistipes)
+    OTU_685 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus)
+    OTU_405 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus)
+    OTU_71 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus)
+    OTU_513 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus*s__Streptococcus_anginosus_subsp._anginosus)
+    OTU_504 (k__Bacteria*p__Firmicutes*c__Clostridia*o__Clostridiales*f__Family_XI*g__Sedimentibacter*s__Ambiguous_taxa)
+    OTU_658 (k__Bacteria*p__Firmicutes*c__Clostridia*o__Clostridiales*f__Ruminococcaceae*g__Sporobacter*s__uncultured_bacterium)
+    OTU_158 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfovibrionales*f__Desulfomicrobiaceae*g__Desulfomicrobium)
+    OTU_246 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_494 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_173 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_140 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas)
+    OTU_131 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas*s__Ambiguous_taxa)
+    OTU_13 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas*s__Ambiguous_taxa)
+    OTU_239 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Lautropia*s__metagenome)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+    OTU_400 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Rahnella*s__Rahnella_aquatilis)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Serratia)
+    OTU_629 (k__Bacteria*p__Spirochaetes*c__Spirochaetia*o__Spirochaetales*f__Spirochaetaceae*g__Spirochaeta_2)
+
+
+# aerobic_chemoheterotrophy (126 records):
+    OTU_488 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Corynebacteriales*f__Dietziaceae*g__Dietzia)
+    OTU_491 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Corynebacteriales*f__Dietziaceae*g__Dietzia)
+    OTU_466 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micrococcales*f__Microbacteriaceae*g__Microbacterium)
+    OTU_255 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_457 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_576 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_724 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter*s__Ambiguous_taxa)
+    OTU_341 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Saprospiraceae*g__Haliscomenobacter)
+    OTU_202 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Cytophagales*f__Cyclobacteriaceae*g__Algoriphagus*s__uncultured_Hongiella_sp.)
+    OTU_412 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Cytophagales*f__Cytophagaceae*g__Cytophaga*s__uncultured_bacterium)
+    OTU_267 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_83 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_137 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_248 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_451 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_49 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_31 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_515 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_445 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_259 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_52 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_325 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_295 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_309 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_384 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_651 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_322 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_257 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_315 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_152 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_77 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_116 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_319 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_261 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_459 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_164 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_667 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_343 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_339 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_610 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_470 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_338 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_464 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_404 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_168 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_314 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_469 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_303 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_428 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_110 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_590 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_205 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_233 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_411 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_453 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_125 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_450 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_439 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_175 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_548 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_413 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_299 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_39 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Ambiguous_taxa)
+    OTU_402 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Ambiguous_taxa)
+    OTU_447 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_rivuli)
+    OTU_331 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HL-21)
+    OTU_332 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HL-21)
+    OTU_455 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HME6421)
+    OTU_252 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._THG-DN6.19)
+    OTU_89 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__uncultured_bacterium)
+    OTU_211 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__uncultured_prokaryote)
+    OTU_232 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_429 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_448 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_414 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter*s__Ambiguous_taxa)
+    OTU_365 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Caulobacterales*f__Caulobacteraceae*g__Caulobacter)
+    OTU_392 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Caulobacterales*f__Caulobacteraceae*g__Caulobacter)
+    OTU_502 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Labraceae*g__Labrys*s__metagenome)
+    OTU_287 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Gemmobacter)
+    OTU_28 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_603 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_291 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_266 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_612 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_617 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_72 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium)
+    OTU_701 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium*s__Ambiguous_taxa)
+    OTU_305 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Porphyrobacter*s__Ambiguous_taxa)
+    OTU_357 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingoaurantiacus)
+    OTU_443 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium)
+    OTU_430 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium)
+    OTU_423 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_397 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_426 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas*s__Sphingomonas_aurantiaca)
+    OTU_218 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingorhabdus*s__Ambiguous_taxa)
+    OTU_674 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured)
+    OTU_47 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+    OTU_495 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Legionellales*f__Legionellaceae*g__Legionella)
+    OTU_692 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Halomonadaceae*g__Halomonas)
+    OTU_240 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Pseudohongiellaceae*g__Pseudohongiella)
+    OTU_251 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Pseudohongiellaceae*g__Pseudohongiella*s__uncultured_bacterium)
+    OTU_522 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_460 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_92 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_666 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_514 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_476 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_johnsonii)
+    OTU_67 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_91 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_483 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_324 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_288 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_334 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_481 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_oryzihabitans)
+    OTU_310 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_peli)
+    OTU_111 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Arenimonas)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+    OTU_186 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Thermomonas)
+    OTU_434 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Xanthomonas)
+    OTU_366 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Chthoniobacterales*f__Chthoniobacteraceae*g__Chthoniobacter)
+    OTU_82 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Chthoniobacterales*f__Chthoniobacteraceae*g__Chthoniobacter*s__Ambiguous_taxa)
+    OTU_272 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae)
+    OTU_560 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae*g__Prosthecobacter*s__uncultured_bacterium)
+    OTU_226 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae*g__uncultured)
+
+
+# invertebrate_parasites (0 records):
+
+
+# human_pathogens_septicemia (0 records):
+
+
+# human_pathogens_pneumonia (0 records):
+
+
+# human_pathogens_nosocomia (0 records):
+
+
+# human_pathogens_meningitis (0 records):
+
+
+# human_pathogens_gastroenteritis (0 records):
+
+
+# human_pathogens_diarrhea (0 records):
+
+
+# human_pathogens_all (8 records):
+    OTU_513 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus*s__Streptococcus_anginosus_subsp._anginosus)
+    OTU_522 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_460 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_92 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_666 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_514 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_476 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_johnsonii)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+
+
+# fish_parasites (0 records):
+
+
+# human_gut (2 records):
+    OTU_622 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides*s__Bacteroides_uniformis)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+
+
+# mammal_gut (2 records):
+    OTU_622 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides*s__Bacteroides_uniformis)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+
+
+# animal_parasites_or_symbionts (11 records):
+    OTU_622 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides*s__Bacteroides_uniformis)
+    OTU_594 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Prevotellaceae*g__Prevotella_9)
+    OTU_513 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus*s__Streptococcus_anginosus_subsp._anginosus)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+    OTU_522 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_460 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_92 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_666 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_514 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_476 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_johnsonii)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+
+
+# plant_pathogen (0 records):
+
+
+# oil_bioremediation (0 records):
+
+
+# aromatic_hydrocarbon_degradation (1 records):
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Comamonas*s__Comamonas_testosteroni)
+
+
+# aromatic_compound_degradation (8 records):
+    OTU_658 (k__Bacteria*p__Firmicutes*c__Clostridia*o__Clostridiales*f__Ruminococcaceae*g__Sporobacter*s__uncultured_bacterium)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Comamonas*s__Comamonas_testosteroni)
+    OTU_522 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_460 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_92 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_666 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_514 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_476 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_johnsonii)
+
+
+# aliphatic_non_methane_hydrocarbon_degradation (0 records):
+
+
+# hydrocarbon_degradation (7 records):
+    OTU_572 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Comamonas*s__Comamonas_testosteroni)
+    OTU_362 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae)
+    OTU_461 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Crenothrix*s__uncultured_Methylococcales_bacterium)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Methylobacter)
+    OTU_27 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_692 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Halomonadaceae*g__Halomonas)
+
+
+# dark_iron_oxidation (1 records):
+    OTU_97 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Gallionellaceae*g__Gallionella)
+
+
+# iron_respiration (2 records):
+    OTU_170 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfuromonadales*f__Geobacteraceae*g__Geobacter)
+    OTU_637 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfuromonadales*f__Geobacteraceae*g__Geobacter)
+
+
+# nitrate_respiration (4 records):
+    OTU_287 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Gemmobacter)
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+
+
+# nitrate_reduction (12 records):
+    OTU_102 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Bacillales*f__Paenibacillaceae*g__Brevibacillus*s__Brevibacillus_borstelensis)
+    OTU_287 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Gemmobacter)
+    OTU_494 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_246 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_173 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+    OTU_400 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Rahnella*s__Rahnella_aquatilis)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Serratia)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+
+
+# nitrogen_respiration (4 records):
+    OTU_287 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Gemmobacter)
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+
+
+# fumarate_respiration (0 records):
+
+
+# intracellular_parasites (26 records):
+    OTU_185 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Holosporales*f__Holosporaceae*g__uncultured)
+    OTU_290 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Holosporales*f__Holosporaceae*g__uncultured*s__uncultured_Holosporaceae_bacterium)
+    OTU_573 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales)
+    OTU_721 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales)
+    OTU_643 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_551 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_550 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_446 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_475 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_318 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_715 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_533 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_112 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_243 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_85 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria)
+    OTU_729 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria*g__Berkeleya_fennica*s__Berkeleya_fennica)
+    OTU_691 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria*g__Berkeleya_fennica*s__Berkeleya_fennica)
+    OTU_154 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Mitochondria*g__Thecamonas_trahens*s__Thecamonas_trahens)
+    OTU_307 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Rickettsiaceae*g__Candidatus_Megaira)
+    OTU_285 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Rickettsiaceae*g__uncultured*s__metagenome)
+    OTU_565 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Rickettsiaceae*g__uncultured*s__metagenome)
+    OTU_298 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__Rickettsiaceae*g__uncultured*s__uncultured_bacterium)
+    OTU_119 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__SM2D12)
+    OTU_484 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__uncultured)
+    OTU_103 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rickettsiales*f__uncultured*g__uncultured_bacterium*s__uncultured_bacterium)
+    OTU_495 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Legionellales*f__Legionellaceae*g__Legionella)
+
+
+# chlorate_reducers (1 records):
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+
+
+# predatory_or_exoparasitic (0 records):
+
+
+# chloroplasts (0 records):
+
+
+# cyanobacteria (18 records):
+    OTU_70 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_600 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_108 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_733 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_17 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Leptolyngbya_PCC-6306)
+    OTU_723 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_725 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_107 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Geitlerinemaceae*g__Geitlerinema_PCC-7105*s__uncultured_cyanobacterium)
+    OTU_580 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Microcystaceae*g__Snowella_0TU37S04*s__Ambiguous_taxa)
+    OTU_199 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Nostocaceae*g__Dolichospermum_NIES41*s__Ambiguous_taxa)
+    OTU_2 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Phormidiaceae*g__Tychonema_CCAP_1459-11B*s__Ambiguous_taxa)
+    OTU_194 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_537 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_561 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_547 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_178 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_58 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_bacterium)
+    OTU_556 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_Synechococcus_sp.)
+
+
+# anoxygenic_photoautotrophy_H2_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_S_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy_Fe_oxidizing (0 records):
+
+
+# anoxygenic_photoautotrophy (0 records):
+
+
+# oxygenic_photoautotrophy (18 records):
+    OTU_70 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_600 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_108 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_733 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_17 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Leptolyngbya_PCC-6306)
+    OTU_723 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_725 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_107 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Geitlerinemaceae*g__Geitlerinema_PCC-7105*s__uncultured_cyanobacterium)
+    OTU_580 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Microcystaceae*g__Snowella_0TU37S04*s__Ambiguous_taxa)
+    OTU_199 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Nostocaceae*g__Dolichospermum_NIES41*s__Ambiguous_taxa)
+    OTU_2 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Phormidiaceae*g__Tychonema_CCAP_1459-11B*s__Ambiguous_taxa)
+    OTU_561 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_194 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_537 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_547 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_178 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_58 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_bacterium)
+    OTU_556 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_Synechococcus_sp.)
+
+
+# photoautotrophy (18 records):
+    OTU_70 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_600 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_108 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_733 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_17 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Leptolyngbya_PCC-6306)
+    OTU_723 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_725 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_107 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Geitlerinemaceae*g__Geitlerinema_PCC-7105*s__uncultured_cyanobacterium)
+    OTU_580 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Microcystaceae*g__Snowella_0TU37S04*s__Ambiguous_taxa)
+    OTU_199 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Nostocaceae*g__Dolichospermum_NIES41*s__Ambiguous_taxa)
+    OTU_2 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Phormidiaceae*g__Tychonema_CCAP_1459-11B*s__Ambiguous_taxa)
+    OTU_561 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_194 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_537 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_547 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_178 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_58 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_bacterium)
+    OTU_556 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_Synechococcus_sp.)
+
+
+# aerobic_anoxygenic_phototrophy (0 records):
+
+
+# photoheterotrophy (4 records):
+    OTU_607 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+    OTU_449 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+    OTU_187 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter*s__uncultured_alpha_proteobacterium)
+    OTU_305 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Porphyrobacter*s__Ambiguous_taxa)
+
+
+# phototrophy (22 records):
+    OTU_70 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_600 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria)
+    OTU_108 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_733 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Chamaesiphon_PCC-7430)
+    OTU_17 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__Leptolyngbya_PCC-6306)
+    OTU_723 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_725 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Leptolyngbyales*f__Leptolyngbyaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_107 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Geitlerinemaceae*g__Geitlerinema_PCC-7105*s__uncultured_cyanobacterium)
+    OTU_580 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Microcystaceae*g__Snowella_0TU37S04*s__Ambiguous_taxa)
+    OTU_199 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Nostocaceae*g__Dolichospermum_NIES41*s__Ambiguous_taxa)
+    OTU_2 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Nostocales*f__Phormidiaceae*g__Tychonema_CCAP_1459-11B*s__Ambiguous_taxa)
+    OTU_561 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_194 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_537 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Pseudanabaenales*f__Pseudanabaenaceae*g__Pseudanabaena_PCC-7429*s__Ambiguous_taxa)
+    OTU_547 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_178 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307)
+    OTU_58 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_bacterium)
+    OTU_556 (k__Bacteria*p__Cyanobacteria*c__Oxyphotobacteria*o__Synechococcales*f__Cyanobiaceae*g__Cyanobium_PCC-6307*s__uncultured_Synechococcus_sp.)
+    OTU_449 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+    OTU_607 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter)
+    OTU_187 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Rhodobacter*s__uncultured_alpha_proteobacterium)
+    OTU_305 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Porphyrobacter*s__Ambiguous_taxa)
+
+
+# plastic_degradation (1 records):
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Comamonas*s__Comamonas_testosteroni)
+
+
+# ureolysis (2 records):
+    OTU_313 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylophilus*s__uncultured_soil_bacterium)
+    OTU_186 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Thermomonas)
+
+
+# reductive_acetogenesis (0 records):
+
+
+# chemoheterotrophy (178 records):
+    OTU_682 (k__Bacteria*p__Acidobacteria*c__Holophagae*o__Holophagales*f__Holophagaceae*g__Geothrix*s__Ambiguous_taxa)
+    OTU_488 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Corynebacteriales*f__Dietziaceae*g__Dietzia)
+    OTU_491 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Corynebacteriales*f__Dietziaceae*g__Dietzia)
+    OTU_466 (k__Bacteria*p__Actinobacteria*c__Actinobacteria*o__Micrococcales*f__Microbacteriaceae*g__Microbacterium)
+    OTU_385 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides)
+    OTU_367 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides)
+    OTU_622 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Bacteroidaceae*g__Bacteroides*s__Bacteroides_uniformis)
+    OTU_161 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group)
+    OTU_21 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_129 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_157 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_142 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_79 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_136 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Marinilabiliaceae*g__[Cytophaga]_xylanolytica_group*s__uncultured_bacterium)
+    OTU_380 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Bacteroidales*f__Rikenellaceae*g__Alistipes)
+    OTU_255 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_457 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_576 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter)
+    OTU_724 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Chitinophagaceae*g__Ferruginibacter*s__Ambiguous_taxa)
+    OTU_341 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Chitinophagales*f__Saprospiraceae*g__Haliscomenobacter)
+    OTU_202 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Cytophagales*f__Cyclobacteriaceae*g__Algoriphagus*s__uncultured_Hongiella_sp.)
+    OTU_412 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Cytophagales*f__Cytophagaceae*g__Cytophaga*s__uncultured_bacterium)
+    OTU_267 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_83 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_137 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_248 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_451 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_49 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_31 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_610 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_515 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_445 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_259 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_52 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_325 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_295 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_309 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_384 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_651 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_322 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_257 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_315 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_152 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_77 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_116 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_319 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_261 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_459 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_164 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_667 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_343 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_339 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_470 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_338 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_464 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_404 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_168 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_314 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_469 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_303 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_428 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_110 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_590 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_205 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_233 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_411 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_453 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_125 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_450 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_439 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_175 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_548 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_413 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_299 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium)
+    OTU_39 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Ambiguous_taxa)
+    OTU_402 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Ambiguous_taxa)
+    OTU_447 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_rivuli)
+    OTU_331 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HL-21)
+    OTU_332 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HL-21)
+    OTU_455 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._HME6421)
+    OTU_252 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__Flavobacterium_sp._THG-DN6.19)
+    OTU_89 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__uncultured_bacterium)
+    OTU_211 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Flavobacteriales*f__Flavobacteriaceae*g__Flavobacterium*s__uncultured_prokaryote)
+    OTU_232 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_429 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_448 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter)
+    OTU_414 (k__Bacteria*p__Bacteroidetes*c__Bacteroidia*o__Sphingobacteriales*f__Sphingobacteriaceae*g__Pedobacter*s__Ambiguous_taxa)
+    OTU_685 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus)
+    OTU_405 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Lactococcus)
+    OTU_71 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus)
+    OTU_513 (k__Bacteria*p__Firmicutes*c__Bacilli*o__Lactobacillales*f__Streptococcaceae*g__Streptococcus*s__Streptococcus_anginosus_subsp._anginosus)
+    OTU_504 (k__Bacteria*p__Firmicutes*c__Clostridia*o__Clostridiales*f__Family_XI*g__Sedimentibacter*s__Ambiguous_taxa)
+    OTU_658 (k__Bacteria*p__Firmicutes*c__Clostridia*o__Clostridiales*f__Ruminococcaceae*g__Sporobacter*s__uncultured_bacterium)
+    OTU_365 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Caulobacterales*f__Caulobacteraceae*g__Caulobacter)
+    OTU_392 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Caulobacterales*f__Caulobacteraceae*g__Caulobacter)
+    OTU_572 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Beijerinckiaceae*g__Methylocystis*s__Ambiguous_taxa)
+    OTU_502 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhizobiales*f__Labraceae*g__Labrys*s__metagenome)
+    OTU_287 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Rhodobacterales*f__Rhodobacteraceae*g__Gemmobacter)
+    OTU_603 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_291 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_28 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_266 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_612 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_617 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae)
+    OTU_72 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium)
+    OTU_701 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Novosphingobium*s__Ambiguous_taxa)
+    OTU_305 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Porphyrobacter*s__Ambiguous_taxa)
+    OTU_357 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingoaurantiacus)
+    OTU_443 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium)
+    OTU_430 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingobium)
+    OTU_423 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_397 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas)
+    OTU_426 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingomonas*s__Sphingomonas_aurantiaca)
+    OTU_218 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__Sphingorhabdus*s__Ambiguous_taxa)
+    OTU_674 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured)
+    OTU_47 (k__Bacteria*p__Proteobacteria*c__Alphaproteobacteria*o__Sphingomonadales*f__Sphingomonadaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_158 (k__Bacteria*p__Proteobacteria*c__Deltaproteobacteria*o__Desulfovibrionales*f__Desulfomicrobiaceae*g__Desulfomicrobium)
+    OTU_494 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_246 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_74 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_173 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Aeromonas)
+    OTU_140 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas)
+    OTU_13 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas*s__Ambiguous_taxa)
+    OTU_131 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Aeromonadales*f__Aeromonadaceae*g__Tolumonas*s__Ambiguous_taxa)
+    OTU_115 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Comamonas*s__Comamonas_testosteroni)
+    OTU_239 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Burkholderiaceae*g__Lautropia*s__metagenome)
+    OTU_40 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_225 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_180 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_595 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_697 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae)
+    OTU_694 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus)
+    OTU_10 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Candidatus_Methylopumilus*s__uncultured_bacterium)
+    OTU_313 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylophilus*s__uncultured_soil_bacterium)
+    OTU_431 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_698 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_406 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_294 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera)
+    OTU_311 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__Ambiguous_taxa)
+    OTU_182 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__Methylotenera*s__uncultured_Methylophilaceae_bacterium)
+    OTU_228 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Methylophilaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_133 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Dechloromonas)
+    OTU_217 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Betaproteobacteriales*f__Rhodocyclaceae*g__Zoogloea)
+    OTU_416 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Enterobacter)
+    OTU_400 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Rahnella*s__Rahnella_aquatilis)
+    OTU_20 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Enterobacteriales*f__Enterobacteriaceae*g__Serratia)
+    OTU_495 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Legionellales*f__Legionellaceae*g__Legionella)
+    OTU_362 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae)
+    OTU_461 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Crenothrix*s__uncultured_Methylococcales_bacterium)
+    OTU_5 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__Methylobacter)
+    OTU_27 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Methylococcales*f__Methylomonaceae*g__uncultured*s__Ambiguous_taxa)
+    OTU_692 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Halomonadaceae*g__Halomonas)
+    OTU_240 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Pseudohongiellaceae*g__Pseudohongiella)
+    OTU_251 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Oceanospirillales*f__Pseudohongiellaceae*g__Pseudohongiella*s__uncultured_bacterium)
+    OTU_522 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_460 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_92 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_666 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_514 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter)
+    OTU_476 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Moraxellaceae*g__Acinetobacter*s__Acinetobacter_johnsonii)
+    OTU_67 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_91 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_483 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_324 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_288 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_334 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas)
+    OTU_481 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_oryzihabitans)
+    OTU_310 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Pseudomonadales*f__Pseudomonadaceae*g__Pseudomonas*s__Pseudomonas_peli)
+    OTU_111 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Arenimonas)
+    OTU_486 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Stenotrophomonas*s__Stenotrophomonas_acidaminiphila)
+    OTU_186 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Thermomonas)
+    OTU_434 (k__Bacteria*p__Proteobacteria*c__Gammaproteobacteria*o__Xanthomonadales*f__Xanthomonadaceae*g__Xanthomonas)
+    OTU_629 (k__Bacteria*p__Spirochaetes*c__Spirochaetia*o__Spirochaetales*f__Spirochaetaceae*g__Spirochaeta_2)
+    OTU_366 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Chthoniobacterales*f__Chthoniobacteraceae*g__Chthoniobacter)
+    OTU_82 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Chthoniobacterales*f__Chthoniobacteraceae*g__Chthoniobacter*s__Ambiguous_taxa)
+    OTU_272 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae)
+    OTU_560 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae*g__Prosthecobacter*s__uncultured_bacterium)
+    OTU_226 (k__Bacteria*p__Verrucomicrobia*c__Verrucomicrobiae*o__Verrucomicrobiales*f__Verrucomicrobiaceae*g__uncultured)
+
+
