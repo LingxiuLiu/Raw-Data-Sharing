@@ -1,0 +1,35 @@
+#SampleID	Category1	Category2	Description
+Sample9	A		Sample9
+Sample8	B	B	Sample8
+Sample7	B	B	Sample7
+Sample6	B	B	Sample6
+Sample5	B	B	Sample5
+Sample4	A		Sample4
+Sample34	C	C	Sample34
+Sample33	C	C	Sample33
+Sample32	C	C	Sample32
+Sample31	C	C	Sample31
+Sample30	B	B	Sample30
+Sample3	A		Sample3
+Sample29	B	B	Sample29
+Sample28	B	B	Sample28
+Sample27	A		Sample27
+Sample26	B	B	Sample26
+Sample25	B	B	Sample25
+Sample24	B	B	Sample24
+Sample23	C	C	Sample23
+Sample22	A		Sample22
+Sample21	A		Sample21
+Sample20	A		Sample20
+Sample2	A		Sample2
+Sample19	A		Sample19
+Sample18	C	C	Sample18
+Sample17	C	C	Sample17
+Sample16	C	C	Sample16
+Sample15	C	C	Sample15
+Sample14	C	C	Sample14
+Sample13	B	B	Sample13
+Sample12	B	B	Sample12
+Sample11	B	B	Sample11
+Sample10	B	B	Sample10
+Sample1	A		Sample1
